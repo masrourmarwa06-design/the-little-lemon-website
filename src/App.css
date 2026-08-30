@@ -1,0 +1,39 @@
+:root {
+  --color-primary: #495e57;
+  --color-secondary: #f4ce14;
+  --color-highlight: #ee9972;
+  --color-light: #edefee;
+  --color-dark: #333333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.section-title {
+  font-family: "Markazi Text", serif;
+  color: var(--color-secondary);
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.btn-primary {
+  background-color: var(--color-secondary);
+  color: var(--color-dark);
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
