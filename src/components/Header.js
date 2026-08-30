@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header container">
       <img
-        src="/logo192.png"
+        src="/logo.png"
         alt="Little Lemon logo"
         className="header__logo"
       />
