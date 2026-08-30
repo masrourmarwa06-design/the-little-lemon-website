@@ -1,0 +1,20 @@
+.nav {
+  background-color: var(--color-primary);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.nav__list a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.nav__list a:hover {
+  color: var(--color-secondary);
+}
